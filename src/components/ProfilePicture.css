@@ -1,0 +1,8 @@
+.info-container-pfp {
+    height: 317px;
+}
+
+.info-container-pfp .pfp {
+    width: 317px;
+    border-radius: 15px 15px 0 0;
+}

@@ -1,0 +1,93 @@
+.main-info {
+    background-color: var(--card-bg-color);
+    color: #fff;
+}
+
+.contacts * {
+    margin: 0;
+    text-align: center;
+}
+
+.contacts > h2 {
+    font-size: 25px;
+    padding-top: 21px;
+    padding-bottom: 3px;
+}
+
+.contacts > h3 {
+    font-weight: 400;
+    font-size: 13px;
+    color: #F3BF99;
+}
+
+.contacts > h4 {
+    font-weight: 400;
+    font-size: 10px;
+    padding: 10px 0 15px 0;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 35px 0 35px;
+}
+
+.btn-mail {
+    background: #fff;
+    color: #000;
+    border-radius: 6px;
+    padding: 8px 25px;
+}
+
+.btn-mail i {
+    color: #000;
+    padding-right: 3px;
+}
+
+.btn-linkedin {
+    background: #5093E2;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.btn-linkedin i {
+    padding-right: 3px;
+}
+
+.btn-mail, .btn-linkedin {
+    width: 115px;
+    height: 34px;
+    font-size: 13px;
+}
+
+.main-content-wrapper {
+    padding: 40px 35px;
+}
+
+.main-content-wrapper h3, p {
+    margin: 0;
+}
+
+.about h3 {
+    padding-bottom: 4px;
+}
+
+.interests h3 {
+    padding: 20px 0 4px 0;
+}
+
+.about, .interests {
+    font-weight: 200;
+    font-size: 14px;
+}
